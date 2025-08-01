@@ -1,8 +1,9 @@
 # Portfolio Website
+
 <div align="center">
   <pre>
-    _____           _    __      _ _       
-   |  __ \         | |  / _|    | (_)      
+    _____           _    __      _ _     
+   |  __ \         | |  / _|    | (_)    
    | |__) |__  _ __| |_| |_ ___ | |_  ___  
    |  ___/ _ \| '__| __|  _/ _ \| | |/ _ \ 
    | |  | (_) | |  | |_| || (_) | | | (_) |
@@ -10,25 +11,24 @@
   </pre>
 </div>
 
- 
 Welcome to my **portfolio website**! This site showcases my skills, experience, education, projects, and how to get in touch with me. It's built with **React** and **Vite** for a fast, modern web experience. You can explore my work, learn about my journey, and contact me directly.
 
 ---
 
 ## Demo
 
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
-
 ---
 
 ## Live Preview
 
-Check out the live preview of the portfolio website here:  
+Check out the live preview of the portfolio website here:
 [**Live Demo**](https://codervai.vercel.app/)
----
+------------------------------------------------------------------
+
 ### 🎯 Project Structure
+
 ```bash
-portfolio/
+portfolio/ 
 ├── node_modules/
 ├── public/
 ├── src/
@@ -99,6 +99,7 @@ portfolio/
 │   └── vite.config.js
 
 ```
+
 ---
 
 ## Sections of the Portfolio
@@ -115,6 +116,7 @@ The portfolio website consists of the following sections:
 ---
 
 ## 💻 Technologies Used
+
 - **Frontend:** React.js with Vite
 - **Styling:** Tailwind CSS
 - **Animations:** Framer Motion
@@ -147,26 +149,31 @@ You will need to download **Git** and **Node** to run this project.
 # Getting Started 🎯
 
 ### Fork and Clone the Repository 🚀
+
 1. Click the **Fork** button at the top-right corner of the page to create your own copy of the repository.
 2. After forking, open your terminal and run the following commands to clone the repo:
 
-  ```bash
+```bash
   git clone https://github.com/seraprogrammer/portfolio.git
-  ```
+```
+
 Navigate to the Project Directory 📂
 Once the repository is cloned, change your directory to the project folder:
+
 ```bash
 cd portfolio
 ```
 
 Install Dependencies ⚙️
 From the root directory of your project, install the necessary packages:
+
 ```bash
 npm install
 ```
 
 Run the Development Server 🚀
 Start the development server to see your project live:
+
 ```bash
 npm run dev
 ```
@@ -175,6 +182,7 @@ View the Project 🌐
 Open your browser and visit http://localhost:5173/ to see the result! 🎉
 
 ## 📝 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
@@ -190,4 +198,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 <div align="center"> Made with ❤️ by Manjunath D </div>
-

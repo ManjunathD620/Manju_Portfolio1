@@ -2,47 +2,63 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
+import DataExport from "@/assets/images/data-export.jpg";
+import Coupon from "@/assets/images/coupons.png";
+import Cloud from "@/assets/images/cloud.webp";
+import QuickDraw from "@/assets/images/quick-draw.png";
+import Pneumonia from "@/assets/images/varsh.jpg";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "JIO ! Data Export 🔥",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+"Built a complete backend system to extract data from MongoDB, SQL, other sources, transform it based on Jio's export requirements, and store it in RBML-compliant Azure Storage. Implemented real-time Slack alerts to monitor failures and ensure visibility across data migration pipelines",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: DataExport,
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "#",
+    liveLink: "#",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "☁️ Multi-Cloud Integration",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "🚀 Implemented multi-cloud backend support, enabling seamless integration with AWS , GCP, and Azure storage services. Enhanced system flexibility, scalability, and cross- cloud support ✨",
+    src: "water.jpg",
+    link: Cloud,
+    color: "#fff",
+    githubLink: "https://github.com/Manjunathd620",
+    liveLink: "#",
+  },
+  {
+    title: "Smart Coupons | EV",
+    description:
+      "🚀 Designed and implemented a complete coupon management system, including creation, CRUD operations, and redemption logic and custom usage restrictions. Integrated automated email 📧 notifications for coupon expiry and ensured secure validation workflows. This system enhanced promotional control and user engagement through efficient, rules-driven coupon usage",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: Coupon,
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
+    githubLink: "https://github.com/Manjunathd620",
     liveLink: "https://codervai.vercel.app",
   },
+
   {
-    title: "🚀 CodeWhisperer",
+    title: "QuickDraw Recognition System 🔥",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+      "Built an interactive web app using Django 🧑‍💻 and deep learning 🧠 to recognize doodles 🎨 from Google’s Quick Draw dataset. Utilized Convolutional Neural Networks (CNNs) 📊 for accurate sketch classification and delivered real-time ✨ predictions through a clean, user-friendly interface 🌐",
+    src: "house.jpg",
+    link: QuickDraw,
+    color: "#ed649e",
+    githubLink: "https://github.com/ManjunathD620/Google_QuickDraw",
+    liveLink: "#",
   },
   {
-    title: "CodeKori 🔥",
+    title: "🫁 Pneumonia Detection",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "Developed a deep learning model using Convolutional Neural Networks to detect pneumonia from chest X-ray images with high precision. Trained on labeled medical datasets and deployed through an intuitive web interface for real-time diagnosis. Special thanks to Varsh for her invaluable guidance, testing help, and motivation 💙.",
     src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: Pneumonia,
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://colab.research.google.com/drive/19jzqULJODhybGaSsq0uYJPzBxxSm7JIv?usp=sharing",
+    liveLink: "#",
   },
 ];
 
@@ -161,15 +177,16 @@ function Card({
         {/* Modern split card design */}
         <div className="w-full flex flex-col md:flex-row bg-zinc-900 rounded-2xl overflow-hidden shadow-xl">
           {/* Image section - full width on mobile, 55% on desktop */}
-          <div className="w-full md:w-[55%] h-[250px] md:h-[400px] lg:h-[450px] relative overflow-hidden">
-            <motion.img
-              src={url}
-              alt={title}
-              className="w-full h-full object-cover"
-              initial={{ scale: 1 }}
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.4 }}
-            />
+          <div className="w-full md:w-[55%] h-[250px] md:h-[400px] lg:h-[450px] relative rounded-xl overflow-hidden flex-shrink-0">
+
+          <motion.img
+            src={url}
+            alt={title}
+            className="w-full h-full object-cover object-center rounded-xl"
+            initial={{ scale: 1 }}
+            whileHover={{ scale: .5 }}
+            transition={{ duration: 0.4 }}
+          />
 
             {/* Colored overlay on hover */}
             <motion.div

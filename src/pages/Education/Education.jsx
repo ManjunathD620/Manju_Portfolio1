@@ -15,24 +15,24 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "Higher Secondary Education (PU)",
+      school: "Morarji Desai Residential PU College",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2017-2019",
+      achievements: ["Percentage: 86.2%", "Subject: Science"],
+      skills: ["Physics", "Chemistry","Mathematics", "Biology"],
       description:
         "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "Bachelor's Degree",
+      school: "Dayananda Sagar University",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2019-2023",
+      achievements: ["CGPA: 8.17", "Subject: CSE"],
+      skills: ["DSA", "AI/ML", "Data Science", "Programming"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Studied core computing principles including algorithms, data structures, software development, and systems design with a focus on real-world problem solving.",
     },
   ];
 

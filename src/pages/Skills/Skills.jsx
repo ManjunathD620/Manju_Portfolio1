@@ -10,6 +10,9 @@ import { SiGooglecloud } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiRedis } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
+import { SiKubernetes } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
 
 import {
   FaReact,
@@ -88,8 +91,8 @@ const SkillsSection = () => {
         { name: "TypeScript", icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" /> },
         { name: "C++", icon: <SiCplusplus className="w-4 h-4 text-[#00599C]" /> },
 
-        { name: "HTML5", icon: <BsFileEarmarkCode className="w-4 h-4 text-[#E34F26]" /> },
-        { name: "CSS3", icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1572B6]" /> },
+        { name: "HTML5", icon: <FaHtml5 className="w-4 h-4 text-[#E34F26]" /> },
+        { name: "CSS3", icon: <FaCss3Alt className="w-4 h-4 text-[#1572B6]" /> },
       ],
     },
     {
@@ -101,7 +104,7 @@ const SkillsSection = () => {
         { name: "GCP", icon: <SiGooglecloud className="w-4 h-4 text-[#4285F4]" /> },
         { name: "Azure", icon: <Cloud className="w-4 h-4 text-[#0078D4]" /> },
         { name: "Docker", icon: <FaDocker className="w-4 h-4 text-[#2496ED]" /> },
-        { name: "Kubernetes", icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" /> },
+        { name: "Kubernetes", icon: <SiKubernetes className="w-4 h-4 text-[#326CE5]" /> },
         { name: "GitHub Actions", icon: <SiVercel className="w-4 h-4 text-white" /> },
       ],
     },
