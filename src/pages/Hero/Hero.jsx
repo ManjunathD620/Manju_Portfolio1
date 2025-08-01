@@ -43,7 +43,7 @@ const GridBackground = () => {
 export default function Hero() {
   const words = [
     "Full-Stack Developer & UI/UX Enthusiast",
-    "JavaScript Developer & Creator of Olova.js",
+    "JavaScript Developer ",
     "Learning MARN Stack",
     "Linux & GitHub for DevOps Enthusiast",
   ];
@@ -53,20 +53,21 @@ const profile = {
     name: 'Manjunath D',
     title: 'Full-Stack Developer | Cloud Enthusiast | Problem Solver',
     skills: [
-        'React', 'NextJS', 'Redux', 'Express',
-        'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
-        'GraphQL', 'Git', 'Linux', 'Discord Development'
+        'NodeJS', 'Express', 'React', 'Python',
+        'Django', 'WebSocket', 'Firbase', 'OCPP',
+        'MySQL', 'MongoDB', 'Docker', 'AWS', 'GCP',
+        'Azure', 'Postgresql', 'Ubuntu', 'Slack Integration',
     ],
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 4, 
+    yearsOfExperience: 2, 
     hireable: function() {
         return (
             this.hardWorker &&
             this.problemSolver &&
             this.skills.length >= 5 &&
-            this.yearsOfExperience >= 3
+            this.yearsOfExperience >= 2
         );
     }
 };
@@ -211,8 +212,9 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | OlovaJS creator 🔧 | Crafting frameworks
-                  and coding the future 💻✨
+                  JavaScript lover ⚡ | Cloud-Native Engineer ☁️ | Building scalable systems 
+                  and clean APIs 🚀
+                  
                 </p>
               </div>
 

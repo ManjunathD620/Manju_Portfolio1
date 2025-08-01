@@ -2,8 +2,8 @@ import React, { useState, lazy, Suspense } from "react";
 import "./assets/css/index.css";
 import Header from "./pages/Header/Header";
 
+import Hero from "./pages/Hero/Hero";
 // Lazy-loaded components
-const Hero = lazy(() => import("./pages/Hero/Hero"));
 const Skills = lazy(() => import("./pages/Skills/Skills"));
 const Experience = lazy(() => import("./pages/Experience/Experience"));
 const Education = lazy(() => import("./pages/Education/Education"));
