@@ -1,4 +1,4 @@
-import{c as Q,g as ie,r as x,j as a}from"./index-CSguvnsg.js";import{c as q}from"./utils-CytzSlOG.js";import{M as le,u as te,P as oe,a as ue,L as ce,m as W}from"./proxy-Cruswg9a.js";var G={exports:{}},V;function de(){return V||(V=1,function(m){var f=typeof window<"u"?window:typeof WorkerGlobalScope<"u"&&self instanceof WorkerGlobalScope?self:{};/**
+import{c as Q,g as ie,r as x,j as a}from"./index-DzPrmHpS.js";import{c as q}from"./utils-CytzSlOG.js";import{M as le,u as te,P as oe,a as ue,L as ce,m as W}from"./proxy-CO2Fwf0g.js";var G={exports:{}},V;function de(){return V||(V=1,function(m){var f=typeof window<"u"?window:typeof WorkerGlobalScope<"u"&&self instanceof WorkerGlobalScope?self:{};/**
  * Prism: Lightweight, robust, elegant syntax highlighting
  *
  * @license MIT <https://opensource.org/licenses/MIT>
